@@ -1,0 +1,60 @@
+#blog h3,h4{text-align: center;}
+#blog .contenedor{display: flex; justify-content: center; flex-wrap: wrap;}
+#blog article  {margin: 15px;}
+#blog img{width: 100%; max-width: 280px; }
+
+.cont1{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;flex-wrap:wrap;
+
+  }
+    .cont1 figure{
+     position:relative;
+      height: 100%;
+      cursor: pointer;
+      width: 100;
+      overflow: hidden;
+      border-radius: 6px;
+
+  }
+    .cont1 figure img{
+      width: 100%;
+      height: 100%;
+      transition: all 400ms ease-out;
+      will-change: transform;
+  }
+    .cont1 figure .capa{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,103,123,0.7);
+      transition: all 400ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+     text-align: center;
+  }
+    .cont1 figure:hover > .capa {
+      opacity: 1;
+      visibility: visible;
+  }
+    .cont1 figure:hover > .capa h3{
+      margin-top: 70px;
+      margin-bottom: 15px;
+  }
+    .cont1 figure:hover > img{
+      transform: scale(1.3);
+  }
+    .cont1 figure .capa h3{
+      color: #fff;
+      font-weight: 400;
+      margin-bottom: 120px;
+      transition: all 400ms ease-out;
+       margin-top: 30px;}
+  .cont1 figure .capa p{color: #fff;  font-size: 15px;line-height: 1.5;
+      width: 100%;
+      max-width: 220px;
+      margin: auto;
+  }
