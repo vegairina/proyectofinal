@@ -1,8 +1,8 @@
-#info{background: #333; color: white; text-align: center; padding: 20px;}
+#info{background:rgba( 78, 52, 46); color: white; text-align: center; padding: 20px;}
 #info .contenedor{display: flex;flex-wrap: wrap;}
 .info-m{margin: 20px; }
 .info-m  img{width: 200px; height: 200px; border-radius: 5%; border: 7px solid white;
 }
- 
+
 @media (min-width:480px) {.info-m{width: 40%}}
 @media (min-width:1024px) {.info-m{width: 250px; height: 200px;padding: 10px;object-position: center;} }

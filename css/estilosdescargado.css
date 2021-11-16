@@ -2,7 +2,7 @@
 
 *{margin: 0;padding: 0;box-sizing: border-box;}
 body{font-family: 'Roboto', sans-serif;}
-header{width:100%;height: 50px;background: #333;
+header{width:100%;height: 50px;background: #4E342E ;
   color: white; position: fixed;top: 0;
   left:0;z-index: 100;}
 .contenedor{width: 98%;margin: auto;}
