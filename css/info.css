@@ -4,5 +4,5 @@
 .info-m  img{width: 200px; height: 200px; border-radius: 5%; border: 7px solid white;
 }
 
-@media (min-width:480px) {.info-m{width: 40%}}
-@media (min-width:1024px) {.info-m{width: 250px; height: 200px;padding: 10px;object-position: center;} }
+@media (min-width:480px) {.info-m{width: 40%}.movil {}}
+@media (min-width:1024px) {.info-m{width: 250px; height: 200px;padding: 10px;object-position: center;}; p.movil {display: none}}

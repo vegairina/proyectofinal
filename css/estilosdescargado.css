@@ -14,4 +14,4 @@ footer .contenedor{display: flex;flex-wrap: wrap; justify-content: center; paddi
 .copy {font-size: 20px; }
 
 @media (min-width: 1024px) {
-  .contenedor {width: 1000px;} }
+  .contenedor {width: 1000px;} p.movil {display: none;} }
